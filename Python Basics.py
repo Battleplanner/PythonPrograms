@@ -633,7 +633,7 @@ class Human:
     # A class attribute. It is shared by all instances of this class
     species = "H. sapiens"
 
-    # Basic initializer, this is called when this class is instantiated.
+    # Basic initializer, this is called when this class is instantiated (i.e Person1 = Human() ).
     # Note that the double leading and trailing underscores denote objects
     # or attributes that are used by Python but that live in user-controlled
     # namespaces. Methods(or objects or attributes) like: __init__, __str__,

@@ -1,5 +1,3 @@
-
-
 #There are 9 main socket API functions
 # socket()
 # bind()
