@@ -167,10 +167,10 @@ def main():
         printHeader()
         printBoard()
 
-        XInput() #Registers X's input into the game
-        XWin = CheckForXWin() #Gives XWin a value of either True or False, depending on whether X won or not
-        OWin = CheckForOWin() #Gives OWin a value of either True or False, depending on whether O won or not
-        Tie = CheckForTie() #Gives Tie a value of either True or False, depending on whether the board is full or not
+        XInput()  # Registers X's input into the game
+        XWin = CheckForXWin()  # Gives XWin a value of either True or False, depending on whether X won or not
+        OWin = CheckForOWin()  # Gives OWin a value of either True or False, depending on whether O won or not
+        Tie = CheckForTie()  # Gives Tie a value of either True or False, depending on whether the board is full or not
         EndGame = GameOver(XWin, OWin, Tie)
         if EndGame == True:
             answer = playAgain()
