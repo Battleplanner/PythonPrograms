@@ -5,6 +5,8 @@ class Main:
         print("Please give the values of the quadratic equation")
         print("Remember, the format is ±ax^2 ± bx ± c. Use - and + to show whether it is positive or negative")
         self.values = []
+        self.StandardMethod = StandardMethod
+        self.GroupMethod = GroupMethod
 
     def user_input(self):
         a = int(input("Please input 'a' here: "))
@@ -60,9 +62,9 @@ class Main:
             else:
                 print("That isn't a valid response!")
 
-class StandardMethod(self, values):
+class StandardMethod(values):
     """The method of solving the equation when a = 1"""
-
+    self.values = values
 
     """Finds the factors of c and puts them in a list"""
     factor_list = []
