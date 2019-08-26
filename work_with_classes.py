@@ -60,6 +60,7 @@ print("Chicken")
 # Here, I'm trying to add "coordinates" together. In other words, I want to be able to go p1 + p2 and so on
 # without having to reference their attributes outside the class.
 
+
 class Point():
     def __init__(self, x=0, y=0):
         self.x = x
